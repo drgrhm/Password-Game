@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD15D6551A90371C00D6B285 /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD15D6541A90371C00D6B285 /* ToastView.m */; };
+		CD15D6571A916C0500D6B285 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD15D6561A916C0500D6B285 /* Images.xcassets */; };
+		CD3843A11A6AD1490061321B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3843A01A6AD1490061321B /* QuartzCore.framework */; };
+		CD3843AF1A6AE7360061321B /* PasswordGameDotLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3843AE1A6AE7360061321B /* PasswordGameDotLayer.m */; };
+		CD3843B21A6AE7510061321B /* PasswordGameLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3843B11A6AE7510061321B /* PasswordGameLineLayer.m */; };
+		CD5036551A7D5919004B3487 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5036541A7D5919004B3487 /* BackgroundView.m */; };
+		CD61B7E01A85CAD600CC77D8 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = CD61B7DF1A85CAD600CC77D8 /* Line.m */; };
+		CD7AEEDE1A61818A001143A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AEEDD1A61818A001143A9 /* main.m */; };
+		CD7AEEE11A61818A001143A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AEEE01A61818A001143A9 /* AppDelegate.m */; };
+		CD7AEEE71A61818A001143A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7AEEE51A61818A001143A9 /* Main.storyboard */; };
+		CD7AEEEC1A61818A001143A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7AEEEA1A61818A001143A9 /* LaunchScreen.xib */; };
+		CD7AEEF81A61818A001143A9 /* PasswordGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AEEF71A61818A001143A9 /* PasswordGameTests.m */; };
+		CD7AEF031A619407001143A9 /* PasswordGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AEF021A619407001143A9 /* PasswordGameViewController.m */; };
+		CD7AEF061A61951C001143A9 /* SetUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AEF051A61951C001143A9 /* SetUpViewController.m */; };
+		CD7AEF091A61997E001143A9 /* PasswordGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AEF081A61997E001143A9 /* PasswordGameView.m */; };
+		CD7AEF151A61B8FD001143A9 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AEF141A61B8FD001143A9 /* Dot.m */; };
+		CD7AEF181A61B954001143A9 /* Password.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AEF171A61B954001143A9 /* Password.m */; };
+		CD7AEF1B1A63387E001143A9 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AEF1A1A63387E001143A9 /* Game.m */; };
+		CD9135DA1A8FD70800D80DDE /* SavedPasswords.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9135D91A8FD70800D80DDE /* SavedPasswords.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7AEEF21A61818A001143A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7AEED01A61818A001143A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7AEED71A61818A001143A9;
+			remoteInfo = PasswordGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD15D6531A90371C00D6B285 /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		CD15D6541A90371C00D6B285 /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		CD15D6561A916C0500D6B285 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD3843A01A6AD1490061321B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CD3843AD1A6AE7360061321B /* PasswordGameDotLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordGameDotLayer.h; sourceTree = "<group>"; };
+		CD3843AE1A6AE7360061321B /* PasswordGameDotLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordGameDotLayer.m; sourceTree = "<group>"; };
+		CD3843B01A6AE7510061321B /* PasswordGameLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordGameLineLayer.h; sourceTree = "<group>"; };
+		CD3843B11A6AE7510061321B /* PasswordGameLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordGameLineLayer.m; sourceTree = "<group>"; };
+		CD5036531A7D5919004B3487 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		CD5036541A7D5919004B3487 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		CD61B7DE1A85CAD600CC77D8 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		CD61B7DF1A85CAD600CC77D8 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		CD7AEED81A61818A001143A9 /* PasswordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7AEEDC1A61818A001143A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7AEEDD1A61818A001143A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD7AEEDF1A61818A001143A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD7AEEE01A61818A001143A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD7AEEE61A61818A001143A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7AEEEB1A61818A001143A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD7AEEF11A61818A001143A9 /* PasswordGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7AEEF61A61818A001143A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7AEEF71A61818A001143A9 /* PasswordGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordGameTests.m; sourceTree = "<group>"; };
+		CD7AEF011A619407001143A9 /* PasswordGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordGameViewController.h; sourceTree = "<group>"; };
+		CD7AEF021A619407001143A9 /* PasswordGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordGameViewController.m; sourceTree = "<group>"; };
+		CD7AEF041A61951C001143A9 /* SetUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpViewController.h; sourceTree = "<group>"; };
+		CD7AEF051A61951C001143A9 /* SetUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpViewController.m; sourceTree = "<group>"; };
+		CD7AEF071A61997E001143A9 /* PasswordGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordGameView.h; sourceTree = "<group>"; };
+		CD7AEF081A61997E001143A9 /* PasswordGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordGameView.m; sourceTree = "<group>"; };
+		CD7AEF131A61B8FD001143A9 /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		CD7AEF141A61B8FD001143A9 /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		CD7AEF161A61B954001143A9 /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
+		CD7AEF171A61B954001143A9 /* Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Password.m; sourceTree = "<group>"; };
+		CD7AEF191A63387E001143A9 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		CD7AEF1A1A63387E001143A9 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		CD9135D81A8FD70800D80DDE /* SavedPasswords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedPasswords.h; sourceTree = "<group>"; };
+		CD9135D91A8FD70800D80DDE /* SavedPasswords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedPasswords.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7AEED51A61818A001143A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3843A11A6AD1490061321B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AEEEE1A61818A001143A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2C8EF81A745F75003E5E65 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CD7AEECF1A61818A001143A9 = {
+			isa = PBXGroup;
+			children = (
+				CD2C8EF81A745F75003E5E65 /* Images */,
+				CD3843A01A6AD1490061321B /* QuartzCore.framework */,
+				CD7AEEDA1A61818A001143A9 /* PasswordGame */,
+				CD7AEEF41A61818A001143A9 /* PasswordGameTests */,
+				CD7AEED91A61818A001143A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7AEED91A61818A001143A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AEED81A61818A001143A9 /* PasswordGame.app */,
+				CD7AEEF11A61818A001143A9 /* PasswordGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7AEEDA1A61818A001143A9 /* PasswordGame */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AEEDF1A61818A001143A9 /* AppDelegate.h */,
+				CD7AEEE01A61818A001143A9 /* AppDelegate.m */,
+				CD7AEEE51A61818A001143A9 /* Main.storyboard */,
+				CD7AEF041A61951C001143A9 /* SetUpViewController.h */,
+				CD7AEF051A61951C001143A9 /* SetUpViewController.m */,
+				CD7AEF011A619407001143A9 /* PasswordGameViewController.h */,
+				CD7AEF021A619407001143A9 /* PasswordGameViewController.m */,
+				CD7AEF071A61997E001143A9 /* PasswordGameView.h */,
+				CD7AEF081A61997E001143A9 /* PasswordGameView.m */,
+				CD3843AD1A6AE7360061321B /* PasswordGameDotLayer.h */,
+				CD3843AE1A6AE7360061321B /* PasswordGameDotLayer.m */,
+				CD3843B01A6AE7510061321B /* PasswordGameLineLayer.h */,
+				CD3843B11A6AE7510061321B /* PasswordGameLineLayer.m */,
+				CD15D6531A90371C00D6B285 /* ToastView.h */,
+				CD15D6541A90371C00D6B285 /* ToastView.m */,
+				CD5036531A7D5919004B3487 /* BackgroundView.h */,
+				CD5036541A7D5919004B3487 /* BackgroundView.m */,
+				CD7AEEEA1A61818A001143A9 /* LaunchScreen.xib */,
+				CD15D6561A916C0500D6B285 /* Images.xcassets */,
+				CD7AEEDB1A61818A001143A9 /* Supporting Files */,
+				CD7AEF191A63387E001143A9 /* Game.h */,
+				CD7AEF1A1A63387E001143A9 /* Game.m */,
+				CD7AEF161A61B954001143A9 /* Password.h */,
+				CD7AEF171A61B954001143A9 /* Password.m */,
+				CD7AEF131A61B8FD001143A9 /* Dot.h */,
+				CD7AEF141A61B8FD001143A9 /* Dot.m */,
+				CD61B7DE1A85CAD600CC77D8 /* Line.h */,
+				CD61B7DF1A85CAD600CC77D8 /* Line.m */,
+				CD9135D81A8FD70800D80DDE /* SavedPasswords.h */,
+				CD9135D91A8FD70800D80DDE /* SavedPasswords.m */,
+			);
+			path = PasswordGame;
+			sourceTree = "<group>";
+		};
+		CD7AEEDB1A61818A001143A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AEEDC1A61818A001143A9 /* Info.plist */,
+				CD7AEEDD1A61818A001143A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD7AEEF41A61818A001143A9 /* PasswordGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AEEF71A61818A001143A9 /* PasswordGameTests.m */,
+				CD7AEEF51A61818A001143A9 /* Supporting Files */,
+			);
+			path = PasswordGameTests;
+			sourceTree = "<group>";
+		};
+		CD7AEEF51A61818A001143A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AEEF61A61818A001143A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7AEED71A61818A001143A9 /* PasswordGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7AEEFB1A61818A001143A9 /* Build configuration list for PBXNativeTarget "PasswordGame" */;
+			buildPhases = (
+				CD7AEED41A61818A001143A9 /* Sources */,
+				CD7AEED51A61818A001143A9 /* Frameworks */,
+				CD7AEED61A61818A001143A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordGame;
+			productName = PasswordGame;
+			productReference = CD7AEED81A61818A001143A9 /* PasswordGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7AEEF01A61818A001143A9 /* PasswordGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7AEEFE1A61818A001143A9 /* Build configuration list for PBXNativeTarget "PasswordGameTests" */;
+			buildPhases = (
+				CD7AEEED1A61818A001143A9 /* Sources */,
+				CD7AEEEE1A61818A001143A9 /* Frameworks */,
+				CD7AEEEF1A61818A001143A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7AEEF31A61818A001143A9 /* PBXTargetDependency */,
+			);
+			name = PasswordGameTests;
+			productName = PasswordGameTests;
+			productReference = CD7AEEF11A61818A001143A9 /* PasswordGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7AEED01A61818A001143A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Devon R Graham";
+				TargetAttributes = {
+					CD7AEED71A61818A001143A9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = S859482K2N;
+					};
+					CD7AEEF01A61818A001143A9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CD7AEED71A61818A001143A9;
+					};
+				};
+			};
+			buildConfigurationList = CD7AEED31A61818A001143A9 /* Build configuration list for PBXProject "PasswordGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7AEECF1A61818A001143A9;
+			productRefGroup = CD7AEED91A61818A001143A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7AEED71A61818A001143A9 /* PasswordGame */,
+				CD7AEEF01A61818A001143A9 /* PasswordGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7AEED61A61818A001143A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD15D6571A916C0500D6B285 /* Images.xcassets in Resources */,
+				CD7AEEE71A61818A001143A9 /* Main.storyboard in Resources */,
+				CD7AEEEC1A61818A001143A9 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AEEEF1A61818A001143A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7AEED41A61818A001143A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AEF091A61997E001143A9 /* PasswordGameView.m in Sources */,
+				CD7AEF061A61951C001143A9 /* SetUpViewController.m in Sources */,
+				CD3843B21A6AE7510061321B /* PasswordGameLineLayer.m in Sources */,
+				CD9135DA1A8FD70800D80DDE /* SavedPasswords.m in Sources */,
+				CD7AEEE11A61818A001143A9 /* AppDelegate.m in Sources */,
+				CD7AEF1B1A63387E001143A9 /* Game.m in Sources */,
+				CD7AEF151A61B8FD001143A9 /* Dot.m in Sources */,
+				CD3843AF1A6AE7360061321B /* PasswordGameDotLayer.m in Sources */,
+				CD7AEF181A61B954001143A9 /* Password.m in Sources */,
+				CD61B7E01A85CAD600CC77D8 /* Line.m in Sources */,
+				CD5036551A7D5919004B3487 /* BackgroundView.m in Sources */,
+				CD15D6551A90371C00D6B285 /* ToastView.m in Sources */,
+				CD7AEEDE1A61818A001143A9 /* main.m in Sources */,
+				CD7AEF031A619407001143A9 /* PasswordGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AEEED1A61818A001143A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AEEF81A61818A001143A9 /* PasswordGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7AEEF31A61818A001143A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7AEED71A61818A001143A9 /* PasswordGame */;
+			targetProxy = CD7AEEF21A61818A001143A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7AEEE51A61818A001143A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7AEEE61A61818A001143A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7AEEEA1A61818A001143A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7AEEEB1A61818A001143A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7AEEF91A61818A001143A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7AEEFA1A61818A001143A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7AEEFC1A61818A001143A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PasswordGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CD7AEEFD1A61818A001143A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PasswordGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CD7AEEFF1A61818A001143A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PasswordGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordGame.app/PasswordGame";
+			};
+			name = Debug;
+		};
+		CD7AEF001A61818A001143A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PasswordGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordGame.app/PasswordGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7AEED31A61818A001143A9 /* Build configuration list for PBXProject "PasswordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AEEF91A61818A001143A9 /* Debug */,
+				CD7AEEFA1A61818A001143A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7AEEFB1A61818A001143A9 /* Build configuration list for PBXNativeTarget "PasswordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AEEFC1A61818A001143A9 /* Debug */,
+				CD7AEEFD1A61818A001143A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7AEEFE1A61818A001143A9 /* Build configuration list for PBXNativeTarget "PasswordGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AEEFF1A61818A001143A9 /* Debug */,
+				CD7AEF001A61818A001143A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7AEED01A61818A001143A9 /* Project object */;
+}

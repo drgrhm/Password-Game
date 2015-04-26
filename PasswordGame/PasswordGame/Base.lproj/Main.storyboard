@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="oNJ-Ws-Yl1">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Setup-->
+        <scene sceneID="d6G-0v-Saf">
+            <objects>
+                <viewController id="g69-ug-p6r" customClass="SetUpViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dhk-mY-RWN"/>
+                        <viewControllerLayoutGuide type="bottom" id="d5N-xq-Vs8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h8b-jv-X8j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KDQ-kv-3Ut">
+                                <rect key="frame" x="224" y="373" width="200" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Cdw-XL-Hb7"/>
+                                    <constraint firstAttribute="height" constant="70" id="m0q-nv-uMt"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="wuq-mY-cNg"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="" image="FlowerSegment"/>
+                                    <segment title="" image="LadybugSegment"/>
+                                    <segment title="" image="SkullSegment"/>
+                                </segments>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="wuq-mY-cNg"/>
+                                    </mask>
+                                </variation>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="center" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ONZ-06-VUa">
+                                <rect key="frame" x="229" y="289" width="200" height="71"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="0u1-XX-tTY"/>
+                                    <constraint firstAttribute="width" constant="200" id="tWu-Lv-NLm"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="wA8-To-5vk"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="" image="EasyFace"/>
+                                    <segment title="" image="MediumFace"/>
+                                    <segment title="" image="HardFace"/>
+                                </segments>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="wA8-To-5vk"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="difficultyLevelChanged:" destination="g69-ug-p6r" eventType="valueChanged" id="1M4-YN-4qG"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hana's Password Game" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lxJ-nN-1vF">
+                                <rect key="frame" x="170" y="75" width="259" height="70"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqF-GF-bJt">
+                                <rect key="frame" x="50" y="494" width="22" height="22"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showInfo:" destination="g69-ug-p6r" eventType="touchUpInside" id="uCS-lc-yOl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="KDQ-kv-3Ut" secondAttribute="centerY" constant="-50" id="0wg-hh-3TS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lxJ-nN-1vF" secondAttribute="trailing" constant="20" id="1Oc-gR-5gp"/>
+                            <constraint firstAttribute="centerX" secondItem="KDQ-kv-3Ut" secondAttribute="centerX" id="Baj-pf-OPu"/>
+                            <constraint firstItem="lxJ-nN-1vF" firstAttribute="leading" secondItem="h8b-jv-X8j" secondAttribute="leadingMargin" constant="20" id="CEY-Di-s6k"/>
+                            <constraint firstItem="lxJ-nN-1vF" firstAttribute="top" secondItem="dhk-mY-RWN" secondAttribute="bottom" constant="20" id="DY7-C3-WL0"/>
+                            <constraint firstAttribute="centerY" secondItem="ONZ-06-VUa" secondAttribute="centerY" constant="30" id="Ptm-sR-33j"/>
+                            <constraint firstItem="d5N-xq-Vs8" firstAttribute="top" secondItem="AqF-GF-bJt" secondAttribute="bottom" constant="15" id="mXL-cZ-9Gy"/>
+                            <constraint firstAttribute="centerX" secondItem="ONZ-06-VUa" secondAttribute="centerX" id="okW-nO-xpg"/>
+                            <constraint firstItem="AqF-GF-bJt" firstAttribute="leading" secondItem="h8b-jv-X8j" secondAttribute="leadingMargin" id="yz1-ci-6JL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="yz1-ci-6JL"/>
+                                <exclude reference="mXL-cZ-9Gy"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Setup" id="77z-bo-sqe">
+                        <barButtonItem key="rightBarButtonItem" title="Play" id="Tm2-la-AO2">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="setupToPlaySegue" id="7Q3-tH-uBr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="colorSegmentedControl" destination="KDQ-kv-3Ut" id="E23-iV-hti"/>
+                        <outlet property="difficultyLevelSegmentedControl" destination="ONZ-06-VUa" id="ew3-AF-oEp"/>
+                        <outlet property="infoButton" destination="AqF-GF-bJt" id="b5i-DM-Ff1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="niL-Yc-mBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334" y="312"/>
+        </scene>
+        <!--Play-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="PasswordGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="PasswordGameView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OAd-iy-caA">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Kvd-5u-mEi"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Set Password" id="YzH-Oh-bck"/>
+                                    <barButtonItem title="Random Password" id="BHD-9k-Xgb"/>
+                                    <barButtonItem title="Retry" id="cEi-LE-Eho"/>
+                                </items>
+                            </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Uxh-98-fYh" userLabel="LoadButton">
+                                <rect key="frame" x="483" y="542" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="wmq-RG-OmD"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="loadDefaultPasswordsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RZS-np-Gc7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlq-V0-Lqt">
+                                <rect key="frame" x="40" y="542" width="60" height="30"/>
+                                <state key="normal" title="Hint">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="giveHint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MSD-8I-m8O"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jlq-V0-Lqt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="4oF-b8-SJH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Uxh-98-fYh" secondAttribute="bottom" constant="20" id="ex3-G4-NMN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jlq-V0-Lqt" secondAttribute="bottom" constant="20" id="nTg-DT-cPO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uxh-98-fYh" secondAttribute="trailing" constant="20" id="v0e-R6-Na9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="OAd-iy-caA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Play" id="Nda-bk-lXm">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="yUW-Fr-aH7">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="a2U-Bq-sO8" kind="unwind" unwindAction="unwindToSetUpFromPlay:" id="X8T-jz-u28"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Delete All" id="3tw-Gj-08A">
+                            <connections>
+                                <action selector="deleteAllAction:" destination="BYZ-38-t0r" id="d7v-0O-anf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="hintButton" destination="Jlq-V0-Lqt" id="mQW-Rm-FTe"/>
+                        <outlet property="loadPasswordsButton" destination="Uxh-98-fYh" id="7V7-H2-cfE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="a2U-Bq-sO8" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1124" y="312"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QSh-B0-li4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oNJ-Ws-Yl1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pZK-cQ-bOs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="g69-ug-p6r" kind="relationship" relationship="rootViewController" id="AlD-po-VhD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhK-6s-LP9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-478" y="312"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EasyFace" width="64" height="64"/>
+        <image name="FlowerSegment" width="64" height="64"/>
+        <image name="HardFace" width="64" height="64"/>
+        <image name="LadybugSegment" width="64" height="64"/>
+        <image name="MediumFace" width="64" height="64"/>
+        <image name="SkullSegment" width="64" height="64"/>
+    </resources>
+</document>
